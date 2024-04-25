@@ -1,4 +1,5 @@
 public class Mecanicos {
+    private Pessoa pessoa;
     private String nomeMecanico;
     private String especialidade;
     private  Long numeroCadastro;
