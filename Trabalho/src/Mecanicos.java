@@ -6,5 +6,9 @@ public class Mecanicos {
 
     private  Long numeroCadastro;
 
-
+    public Mecanicos(String nomeMecanico, String especialidade, Long numeroCadastro) {
+        this.nomeMecanico = nomeMecanico;
+        this.especialidade = especialidade;
+        this.numeroCadastro = numeroCadastro;
+    }
 }

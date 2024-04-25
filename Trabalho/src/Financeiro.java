@@ -6,5 +6,9 @@ public class Financeiro {
 
     private String outrasTransacoes;
 
+    private Double salario;
+
+
+
 
 }

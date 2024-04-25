@@ -2,12 +2,8 @@ import java.util.Date;
 
 public class Cliente {
 
-    private  String nome;
+   private Pessoa pessoa;
 
-    private String cpf;
-
-    private  String email;
-
-    private Date dataDeNascimento;
+    private Carro carro;
 
 }
