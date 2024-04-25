@@ -1,12 +1,10 @@
 import java.util.Date;
 
 public class Pessoa {
+
     private  String nome;
-
     private String cpf;
-
     private  String email;
-
     private Date dataDeNascimento;
 
     public Pessoa(String nome, String cpf, String email, Date dataDeNascimento) {

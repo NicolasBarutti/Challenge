@@ -1,9 +1,6 @@
 public class Mecanicos {
-
     private String nomeMecanico;
-
     private String especialidade;
-
     private  Long numeroCadastro;
 
     public Mecanicos(String nomeMecanico, String especialidade, Long numeroCadastro) {

@@ -1,9 +1,7 @@
 import java.util.Date;
 
 public class Cliente {
-
-   private Pessoa pessoa;
-
+    private String idCadastro;
+    private Pessoa pessoa;
     private Carro carro;
-
 }
