@@ -1,5 +1,6 @@
-public enum Cor {
+package org.example;
 
+public enum Cor {
     Azul,
     Rosa,
     Vermelho,
