@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_OFICINA_MECANICO" directorySegmentName="seg_0" id="619570A1-6CF2-BD42-C3AE-36501EF8BAF4">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 15:19:07 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<sourcePk>1EE457D8-A1F0-F52A-752B-E69FE6D5235F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AFC7767D-F327-0A79-D83B-90D432DC6436</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0BA6ACA9-903C-85A6-FC68-0F8EC66CD01A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

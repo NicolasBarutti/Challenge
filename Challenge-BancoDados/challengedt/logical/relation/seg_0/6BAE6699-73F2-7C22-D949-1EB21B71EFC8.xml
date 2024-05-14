@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE_VEICULO" directorySegmentName="seg_0" id="6BAE6699-73F2-7C22-D949-1EB21B71EFC8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:13:22 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<sourcePk>19BA0C1A-488B-2E82-C47C-A8F3789EF1E9</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2C24C3A4-2A8D-03A3-7933-CA13FE638559</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E3F48C5-9DBF-D844-6B2C-F597FFA6F51D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

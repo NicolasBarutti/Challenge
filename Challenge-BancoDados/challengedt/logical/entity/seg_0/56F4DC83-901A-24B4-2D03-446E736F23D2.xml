@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56F4DC83-901A-24B4-2D03-446E736F23D2" name="T_ARS_MANUTENCAO">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 20:40:33 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_pecas" id="FA7D4ACC-1240-976B-0E9F-CA0644C75277">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 20:41:33 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="st_status" id="C4195B7A-6B52-60B7-14F0-A1D53755DE2F">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 20:42:02 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="revisao" id="29127EE1-92DB-F77F-D5B7-F5E3CDDB1FA7">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 21:17:36 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93865EF1-F825-C2E9-D035-0879A9487843" name="T_ARS_MANUTENCAO PK">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 20:42:00 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA7D4ACC-1240-976B-0E9F-CA0644C75277</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

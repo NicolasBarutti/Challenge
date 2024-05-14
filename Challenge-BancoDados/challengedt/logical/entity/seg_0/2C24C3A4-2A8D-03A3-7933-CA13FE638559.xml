@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2C24C3A4-2A8D-03A3-7933-CA13FE638559" name="T_ARS_CLIENTE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:55:48 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="EF701B33-EF41-0FB5-09C3-A0CB1D589FA3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:55:51 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_clienten" id="251DD390-5560-A16C-44EF-9F20A601E40C">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:56:11 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="contato_cliente" id="5E8BE6AD-495A-CF7A-7B4F-5516E7A61976">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:56:48 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_cliente" id="C942D623-7189-5BEF-859D-C785681E4C4A">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:57:01 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="FD3B028A-2FEA-E63B-299E-2D238A18A224">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:57:15 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rg_cliente" id="CE8DFFA5-495C-B33B-C52A-F71CB25BE195">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:03:40 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="veiculo_cliente" id="BE23958E-38ED-E67A-881A-87D6362167E7">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:04:59 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="19BA0C1A-488B-2E82-C47C-A8F3789EF1E9" name="USUARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 13:58:31 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EF701B33-EF41-0FB5-09C3-A0CB1D589FA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

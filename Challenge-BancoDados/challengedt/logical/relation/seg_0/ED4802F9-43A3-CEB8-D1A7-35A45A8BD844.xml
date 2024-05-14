@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PLANO_PORTO_CLIENTE" directorySegmentName="seg_0" id="ED4802F9-43A3-CEB8-D1A7-35A45A8BD844">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:08:50 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<sourcePk>5A8EBF56-5E75-46B4-9539-84225015D782</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>813EA51C-5B4B-9220-BFAC-2F969D99ED5C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CF1B74A6-A2D3-EBC8-4724-446A49D49106</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

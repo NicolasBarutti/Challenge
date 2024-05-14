@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF1B74A6-A2D3-EBC8-4724-446A49D49106" name="PLANO_CLIENTE_PORTO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:19:31 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente_prt" id="CE032BA4-EB01-1875-EC7F-97CF7E8C46D4">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:48:29 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cliente" id="FD475A3A-0484-C8AA-F2FE-25569ADF5D7E">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:20:32 UTC</createdTime>
+<generatorID>6F7137BE-9AED-8A89-26D0-7578B0836C71</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>EF701B33-EF41-0FB5-09C3-A0CB1D589FA3</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_plano_porto" id="4052B575-02E1-168E-640C-E665EE52B4E7">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:08:50 UTC</createdTime>
+<generatorID>ED4802F9-43A3-CEB8-D1A7-35A45A8BD844</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>F5C9F0EB-BB89-3FC8-0B23-760D8D2A1199</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_plano_usuario" id="C44EF8BC-4273-FF03-972F-EDC990761CFB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:19:49 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_inicio" id="6D90A260-5EB1-1C7A-C889-6580381B6688">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:51:30 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_termino" id="9C6ED62C-E1AC-751A-A0BA-DC3F9B5B1BD6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:53:20 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E19B07F3-9D60-D834-4987-58A1138377FA" name="PLANO_USUARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-04-25 14:45:52 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE032BA4-EB01-1875-EC7F-97CF7E8C46D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

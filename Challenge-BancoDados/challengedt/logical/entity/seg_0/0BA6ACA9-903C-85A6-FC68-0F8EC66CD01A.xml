@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0BA6ACA9-903C-85A6-FC68-0F8EC66CD01A" name="T_ARS_MECANICO">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 21:51:21 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_mecanico" id="D9A18AD6-C42C-76D0-0254-4AD27563E866">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-13 21:51:39 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_oficina" id="41E26C8A-5B4D-3CE0-4B3B-F02B4699D119">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 15:19:07 UTC</createdTime>
+<generatorID>619570A1-6CF2-BD42-C3AE-36501EF8BAF4</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>0D363D2D-C0A0-04E1-6917-822D5CAB60C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="es_especialidade" id="202C727E-02A0-2E2C-7AC8-8E6D353E27A6">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:00:23 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>110</dataTypeSize>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_cadastro" id="71DF8B72-4808-DA4A-823B-6AC1110C6F5B">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:00:45 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="419BBA67-B326-576A-65D4-649AE4CDB132" name="T_ARS_MECANICO PK">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-14 02:00:21 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D9A18AD6-C42C-76D0-0254-4AD27563E866</attributeRef>
+<attributeRef>41E26C8A-5B4D-3CE0-4B3B-F02B4699D119</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
