@@ -43,20 +43,22 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_problemas" id="5E1C50E8-5858-5B91-1ACA-3DF6071430E4">
+<Attribute name="id_problemas1" id="9083097E-EE10-CACE-023E-EE53B72870B4">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:00:32 UTC</createdTime>
+<createdTime>2024-05-14 15:27:30 UTC</createdTime>
+<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
+<referedAttribute>0A61C758-402F-18B9-1F58-8FCA1D68829A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="batida" id="77851FEB-C138-EB0C-20F5-DD3BBDA97C63">
 <createdBy>Raphael</createdBy>
@@ -184,21 +186,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_problemas1" id="9083097E-EE10-CACE-023E-EE53B72870B4">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:27:30 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>0A61C758-402F-18B9-1F58-8FCA1D68829A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="267D6C32-6076-0653-E029-A250EB5A77DC" name="PROBLEMAS PK">
@@ -210,7 +197,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>5E1C50E8-5858-5B91-1ACA-3DF6071430E4</attributeRef>
 <attributeRef>A665F995-607E-60A5-BFAB-4C53CC0F66F2</attributeRef>
 <attributeRef>746F92A2-3072-E163-D8D3-8333D16D5DD4</attributeRef>
 </usedAttributes>

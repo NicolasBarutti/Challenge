@@ -27,15 +27,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_problemas" id="0A61C758-402F-18B9-1F58-8FCA1D68829A">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:22:56 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
+<Attribute name="id_oficina" id="5896BAE6-A389-8593-6DFE-8570DB0CE4D8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 15:09:02 UTC</createdTime>
+<generatorID>A30FC2A4-9DEE-B42C-4FE7-1E988B9C83A0</generatorID>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
-<referedAttribute>5E1C50E8-5858-5B91-1ACA-3DF6071430E4</referedAttribute>
+<referedAttribute>0D363D2D-C0A0-04E1-6917-822D5CAB60C5</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -55,7 +55,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT025</logicalDatatype>
 <dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>110,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_veiculo" id="AF0FBC74-C842-5A9F-06C7-B18AC2C61BD3">
 <createdBy>Raphael</createdBy>
@@ -70,34 +70,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_oficina" id="55685475-01ED-ED54-CE14-8FDF2119624E">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:26:46 UTC</createdTime>
-<generatorID>EC7A39D8-F96C-7BB0-46FC-A09B06981598</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>0D363D2D-C0A0-04E1-6917-822D5CAB60C5</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="ds_peca" id="3E2AB987-9A0C-CB1D-2FEE-EB68D95BB12A">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:03:26 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_inicio" id="64FA6502-77F6-EFC4-52FE-91B83252F3B9">
 <createdBy>Raphael</createdBy>
@@ -136,7 +109,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>0BCB47F9-450F-33BB-210A-BC40242D346B</attributeRef>
-<attributeRef>0A61C758-402F-18B9-1F58-8FCA1D68829A</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
