@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_oficina" id="0D363D2D-C0A0-04E1-6917-822D5CAB60C5">
+<Attribute name="ID_OFICINA" id="0D363D2D-C0A0-04E1-6917-822D5CAB60C5">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:43:24 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_cnpj" id="370B8E34-3963-7A44-77E1-FB84F60D15BD">
+<Attribute name="NM_CNPJ" id="370B8E34-3963-7A44-77E1-FB84F60D15BD">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:43:42 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -41,7 +41,7 @@
 <dataTypePrecision>19</dataTypePrecision>
 <ownDataTypeParameters>,19,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dados_cliente" id="00A93999-85D9-805E-D23E-480181ED5231">
+<Attribute name="DADOS_CLIENTE" id="00A93999-85D9-805E-D23E-480181ED5231">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:52:33 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -54,7 +54,7 @@
 <dataTypeSize>110</dataTypeSize>
 <ownDataTypeParameters>110,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="horario_atendimento" id="4B6427C3-093A-F246-56CE-F9BAD93CF732">
+<Attribute name="DT_ATENDIMENTO" id="4B6427C3-093A-F246-56CE-F9BAD93CF732">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:53:07 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -64,16 +64,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="problemas_veiculo" id="9289331C-4A07-447F-64F1-BAC48109C181">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 20:53:36 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

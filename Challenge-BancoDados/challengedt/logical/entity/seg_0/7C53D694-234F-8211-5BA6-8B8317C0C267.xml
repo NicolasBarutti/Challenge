@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente_prt" id="709B4CFD-60F9-6C5E-5366-AE1D0B9419E0">
+<Attribute name="ID_CLIENTE_PRT" id="709B4CFD-60F9-6C5E-5366-AE1D0B9419E0">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:31:53 UTC</createdTime>
 <generatorID>922D41AE-E81D-81C9-06CD-4DC466C2B553</generatorID>
@@ -28,9 +28,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pagamento" id="25A7D514-19A3-58A0-BE7F-431FA9E84483">
+<Attribute name="ID_PAGAMENTO" id="25A7D514-19A3-58A0-BE7F-431FA9E84483">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:22:33 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -43,7 +43,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="px_pix" id="EE89EE68-A31A-DE18-A7BC-F8CEAB14CDE4">
+<Attribute name="PX_PIX" id="EE89EE68-A31A-DE18-A7BC-F8CEAB14CDE4">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:23:26 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -57,7 +57,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cdc_cartao_credito" id="8A7085DD-B712-9590-B1A9-BF01E9AA5858">
+<Attribute name="CDC_CARTAO_CREDITO" id="8A7085DD-B712-9590-B1A9-BF01E9AA5858">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:23:55 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -71,7 +71,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_dinheiro" id="60149AE6-60C7-3BF8-B3DB-C35663037220">
+<Attribute name="NM_DINHEIRO" id="60149AE6-60C7-3BF8-B3DB-C35663037220">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:24:19 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -85,7 +85,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cq_cheque" id="402C86D8-094B-9D02-314A-93DDED568E88">
+<Attribute name="CQ_CHEQUE" id="402C86D8-094B-9D02-314A-93DDED568E88">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:25:10 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -99,7 +99,7 @@
 <dataTypePrecision>20</dataTypePrecision>
 <ownDataTypeParameters>,20,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cdd_cartao_debito" id="563CF267-AE10-04B1-BC6F-C92C9A5F527A">
+<Attribute name="CDD_CARTAO_DEBITO" id="563CF267-AE10-04B1-BC6F-C92C9A5F527A">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:25:25 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>

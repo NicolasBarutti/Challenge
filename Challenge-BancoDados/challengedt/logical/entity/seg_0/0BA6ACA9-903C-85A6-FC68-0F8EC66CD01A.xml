@@ -15,20 +15,37 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_mecanico" id="D9A18AD6-C42C-76D0-0254-4AD27563E866">
+<Attribute name="ID_PESSOA" id="7E61B1C4-BE2D-ABAE-5AA4-1F5E9D84E6DE">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:51:39 UTC</createdTime>
+<createdTime>2024-05-20 11:35:58 UTC</createdTime>
+<generatorID>F63CFF24-C3DC-6F49-0AA0-BD91B882A27C</generatorID>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
+<referedAttribute>55F89386-8669-DC2B-F7B3-928BE8973252</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="es_especialidade" id="202C727E-02A0-2E2C-7AC8-8E6D353E27A6">
+<Attribute name="ID_OFICINA" id="28D87894-8F3E-42B1-D0AE-8B7BF59603BC">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:49:04 UTC</createdTime>
+<generatorID>3F6389FF-5479-C6DA-09AC-07E6BD6C6F93</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>0D363D2D-C0A0-04E1-6917-822D5CAB60C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ES_ESPECIALIDADE" id="202C727E-02A0-2E2C-7AC8-8E6D353E27A6">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:00:23 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -41,16 +58,6 @@
 <dataTypeSize>110</dataTypeSize>
 <ownDataTypeParameters>110,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_cadastro" id="71DF8B72-4808-DA4A-823B-6AC1110C6F5B">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 02:00:45 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="419BBA67-B326-576A-65D4-649AE4CDB132" name="T_ARS_MECANICO PK">
@@ -62,7 +69,7 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>D9A18AD6-C42C-76D0-0254-4AD27563E866</attributeRef>
+<attributeRef>7E61B1C4-BE2D-ABAE-5AA4-1F5E9D84E6DE</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

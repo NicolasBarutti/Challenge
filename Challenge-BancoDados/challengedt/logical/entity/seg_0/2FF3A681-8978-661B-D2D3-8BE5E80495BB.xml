@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="56F4DC83-901A-24B4-2D03-446E736F23D2" name="T_ARS_MANUTENCAO">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2FF3A681-8978-661B-D2D3-8BE5E80495BB" name="T_ARS_PESSOA">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 20:40:33 UTC</createdTime>
+<createdTime>2024-05-20 11:30:01 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pecas" id="FA7D4ACC-1240-976B-0E9F-CA0644C75277">
+<Attribute name="ID_PESSOA" id="55F89386-8669-DC2B-F7B3-928BE8973252">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 20:41:33 UTC</createdTime>
+<createdTime>2024-05-20 11:35:21 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -28,9 +28,9 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="st_status" id="C4195B7A-6B52-60B7-14F0-A1D53755DE2F">
+<Attribute name="NM_PESSOA" id="84838732-0DB0-2F6A-A03E-4FA5EA2FA202">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 20:42:02 UTC</createdTime>
+<createdTime>2024-05-20 11:31:25 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -38,12 +38,25 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="revisao" id="29127EE1-92DB-F77F-D5B7-F5E3CDDB1FA7">
+<Attribute name="DS_CPF" id="7D376EAB-9515-0459-B9C4-86762061B056">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:17:36 UTC</createdTime>
+<createdTime>2024-05-20 11:40:07 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_RG" id="C3E1D864-48FF-9878-63BA-91403A232F6D">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:40:35 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -51,21 +64,33 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_NASCIMENTO" id="4C0FA22C-6685-A0A8-F6D1-0DD2AE80E8F2">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:41:01 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="93865EF1-F825-C2E9-D035-0879A9487843" name="T_ARS_MANUTENCAO PK">
+<identifier id="97645684-D107-65B3-774C-AF1124D07265" name="T_ARS_PESSOA PK">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 20:42:00 UTC</createdTime>
+<createdTime>2024-05-20 11:35:29 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FA7D4ACC-1240-976B-0E9F-CA0644C75277</attributeRef>
+<attributeRef>55F89386-8669-DC2B-F7B3-928BE8973252</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

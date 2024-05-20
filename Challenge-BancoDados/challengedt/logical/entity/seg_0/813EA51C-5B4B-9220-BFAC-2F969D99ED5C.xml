@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_plano_porto" id="F5C9F0EB-BB89-3FC8-0B23-760D8D2A1199">
+<Attribute name="ID_PLANO_PORTO" id="F5C9F0EB-BB89-3FC8-0B23-760D8D2A1199">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:02:52 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -28,7 +28,7 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nm_contato" id="EE78D63F-42F1-61E0-F84D-3A12661AFFB4">
+<Attribute name="NM_CONTATO" id="EE78D63F-42F1-61E0-F84D-3A12661AFFB4">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:04:42 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -42,7 +42,7 @@
 <dataTypeSize>110</dataTypeSize>
 <ownDataTypeParameters>110,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_inicio" id="AE423BBE-FC9E-F772-DF42-44DE0A12E165">
+<Attribute name="DT_INICIO" id="AE423BBE-FC9E-F772-DF42-44DE0A12E165">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:04:54 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -54,7 +54,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_fim" id="B2EA51C7-E832-CEF5-7539-91FAACC1077E">
+<Attribute name="DT_FIM" id="B2EA51C7-E832-CEF5-7539-91FAACC1077E">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:05:29 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -67,7 +67,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_telefone" id="936BC8D6-B876-C7DE-8D23-4129443FD8E5">
+<Attribute name="DS_TELEFONE" id="936BC8D6-B876-C7DE-8D23-4129443FD8E5">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 02:08:01 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>

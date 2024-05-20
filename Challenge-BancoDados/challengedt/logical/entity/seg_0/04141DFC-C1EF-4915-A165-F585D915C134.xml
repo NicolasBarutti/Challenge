@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="cd_ordem_servico" id="0BCB47F9-450F-33BB-210A-BC40242D346B">
+<Attribute name="CD_ORDEM_SERVICO" id="0BCB47F9-450F-33BB-210A-BC40242D346B">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 21:49:21 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_oficina" id="5896BAE6-A389-8593-6DFE-8570DB0CE4D8">
+<Attribute name="ID_OFICINA" id="5896BAE6-A389-8593-6DFE-8570DB0CE4D8">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-05-16 15:09:02 UTC</createdTime>
 <generatorID>A30FC2A4-9DEE-B42C-4FE7-1E988B9C83A0</generatorID>
@@ -42,7 +42,22 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_inicio" id="64FA6502-77F6-EFC4-52FE-91B83252F3B9">
+<Attribute name="ID_PROBLEMAS" id="561840E6-DDD5-0E8E-9DCF-6AAC52F07537">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 12:26:40 UTC</createdTime>
+<generatorID>F186EC2E-EEF6-7FA0-477D-5732A7F752EA</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>7785482C-0F97-8227-3136-AFCAD07650F1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_INICIO" id="64FA6502-77F6-EFC4-52FE-91B83252F3B9">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 15:02:30 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -54,7 +69,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_fim" id="9A77C899-8C3E-1F88-0908-E6C98BB01725">
+<Attribute name="DT_FIM" id="9A77C899-8C3E-1F88-0908-E6C98BB01725">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 15:03:14 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_PLANO_CLIENTE" directorySegmentName="seg_0" id="6F7137BE-9AED-8A89-26D0-7578B0836C71">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE_ENDERECO" directorySegmentName="seg_0" id="6347DBB1-D632-73DB-58F7-2B9C50CCB3BC">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 02:20:32 UTC</createdTime>
+<createdTime>2024-05-20 11:46:01 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -13,7 +13,7 @@
 <sourceCardinality>1</sourceCardinality>
 <sourceEntity>2C24C3A4-2A8D-03A3-7933-CA13FE638559</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>CF1B74A6-A2D3-EBC8-4724-446A49D49106</targetEntity>
+<targetEntity>FEEE035F-400B-90BF-89BC-8EFE1C285431</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>

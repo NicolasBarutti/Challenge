@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_veiculo" id="5DA80A3C-2347-4A48-7A55-6EF5A15D9549">
+<Attribute name="ID_VEICULO" id="5DA80A3C-2347-4A48-7A55-6EF5A15D9549">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-25 14:14:41 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -28,7 +28,22 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tp_modelo" id="21780BE4-8AD4-BF47-B34D-CC547762BDCA">
+<Attribute name="ID_PESSOA" id="04CBBDA4-359D-B1DF-BBAA-850393F15F0D">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:45:15 UTC</createdTime>
+<generatorID>F53F87B6-236D-C96D-B90B-45CB2BDD299C</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>3F35B873-E1EE-BEB9-B71F-3C5824DFE73F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TP_MODELO" id="21780BE4-8AD4-BF47-B34D-CC547762BDCA">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-25 14:09:27 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -40,7 +55,7 @@
 <logicalDatatype>LOGDT024</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ds_placa_veiculo" id="B248D405-72FF-9DC1-D925-9C05BB5B5972">
+<Attribute name="DS_PLACA_VEICULO" id="B248D405-72FF-9DC1-D925-9C05BB5B5972">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-25 14:10:04 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -53,7 +68,7 @@
 <dataTypeSize>7</dataTypeSize>
 <ownDataTypeParameters>7,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="dt_ano_veiculo" id="2A040EB7-2B01-4A19-ABBC-1B51D2ED0116">
+<Attribute name="DT_ANO_VEICULO" id="2A040EB7-2B01-4A19-ABBC-1B51D2ED0116">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:36:52 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
@@ -65,7 +80,7 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="mc_marca" id="1451227A-3B79-F84D-737A-26138E04043C">
+<Attribute name="MC_MARCA" id="1451227A-3B79-F84D-737A-26138E04043C">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-13 20:37:24 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>

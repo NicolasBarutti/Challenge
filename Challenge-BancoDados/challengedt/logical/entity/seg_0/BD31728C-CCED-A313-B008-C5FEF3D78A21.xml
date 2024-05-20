@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="261F31E2-6F3F-81BB-0CFE-E29F99EE3968" name="T_ARS_PROBLEMAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BD31728C-CCED-A313-B008-C5FEF3D78A21" name="T_ARS_PROBLEMA">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:00:19 UTC</createdTime>
+<createdTime>2024-05-20 12:24:17 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -15,50 +15,23 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_problemas1" id="9083097E-EE10-CACE-023E-EE53B72870B4">
+<Attribute name="ID_PROBLEMAS" id="7785482C-0F97-8227-3136-AFCAD07650F1">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:27:30 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
+<createdTime>2024-05-20 12:24:59 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
-<referedAttribute>0A61C758-402F-18B9-1F58-8FCA1D68829A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="cd_ordem_servico" id="D2C94C8E-BE2F-5022-3D25-EE3F424995C4">
+<Attribute name="ID_VEICULO" id="85DF1C5D-D6E9-093E-1DF8-BA442889167D">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:23:05 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>0BCB47F9-450F-33BB-210A-BC40242D346B</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="Attribute_73" id="B442AE16-EA1A-14ED-4C6D-1939FB39F53B">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-20 11:19:27 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<use>0</use>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_veiculo" id="A3426D53-2F43-9A71-C85D-11505CA72DA9">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-20 11:19:48 UTC</createdTime>
-<generatorID>0C59AFEF-192F-9EE4-5970-9C2BE01AC20C</generatorID>
+<createdTime>2024-05-20 12:26:00 UTC</createdTime>
+<generatorID>C8FB8842-D804-869C-6B73-29A4EF90AEE4</generatorID>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
@@ -70,16 +43,46 @@
 <dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="CD_ORDEM_SERVICO" id="8BE93EEF-C7C8-AE46-8E5F-C1EAB46731D4">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 12:26:34 UTC</createdTime>
+<generatorID>F186EC2E-EEF6-7FA0-477D-5732A7F752EA</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>0BCB47F9-450F-33BB-210A-BC40242D346B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PROBLEMA" id="B1CDA84F-F0BB-960B-E389-58D4C099390D">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 12:25:22 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="267D6C32-6076-0653-E029-A250EB5A77DC" name="PROBLEMAS PK">
+<identifier id="3A572278-739D-C802-EBD2-9957F22CC115" name="T_ARS_PROBLEMA PK">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:01:14 UTC</createdTime>
+<createdTime>2024-05-20 12:25:21 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
 <pk>true</pk>
+<usedAttributes>
+<attributeRef>7785482C-0F97-8227-3136-AFCAD07650F1</attributeRef>
+</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

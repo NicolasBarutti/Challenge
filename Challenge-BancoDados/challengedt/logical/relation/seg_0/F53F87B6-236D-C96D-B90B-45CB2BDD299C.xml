@@ -1,19 +1,19 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_VEICULOS_PROBLEMAS" directorySegmentName="seg_0" id="0C59AFEF-192F-9EE4-5970-9C2BE01AC20C">
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_CLIENTE_VEICULO" directorySegmentName="seg_0" id="F53F87B6-236D-C96D-B90B-45CB2BDD299C">
 <createdBy>Raphael</createdBy>
-<createdTime>2024-05-20 11:19:48 UTC</createdTime>
+<createdTime>2024-05-20 11:45:15 UTC</createdTime>
 <ownerDesignName>challengedt</ownerDesignName>
 <engineerTo>
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
-<sourcePk>3EF0CC4E-7AED-0C11-34F2-80ABF18EC17D</sourcePk>
+<sourcePk>19BA0C1A-488B-2E82-C47C-A8F3789EF1E9</sourcePk>
 <identifying>false</identifying>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
-<sourceEntity>1E3F48C5-9DBF-D844-6B2C-F597FFA6F51D</sourceEntity>
+<sourceEntity>2C24C3A4-2A8D-03A3-7933-CA13FE638559</sourceEntity>
 <targetCardinalityString>*</targetCardinalityString>
-<targetEntity>261F31E2-6F3F-81BB-0CFE-E29F99EE3968</targetEntity>
+<targetEntity>1E3F48C5-9DBF-D844-6B2C-F597FFA6F51D</targetEntity>
 <transferable>true</transferable>
 <deleteRule>NO ACTION</deleteRule>
 </Relation>
