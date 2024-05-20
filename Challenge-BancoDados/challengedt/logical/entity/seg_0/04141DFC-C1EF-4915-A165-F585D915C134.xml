@@ -40,36 +40,6 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_cliente" id="5400150A-AB9C-B42B-EB69-DFA8EBECE6B3">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:22:56 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>A665F995-607E-60A5-BFAB-4C53CC0F66F2</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_veiculo" id="AF0FBC74-C842-5A9F-06C7-B18AC2C61BD3">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:22:56 UTC</createdTime>
-<generatorID>DE40960B-920A-65F6-E385-6E2FD8AEC03E</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>746F92A2-3072-E163-D8D3-8333D16D5DD4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
 <ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="dt_inicio" id="64FA6502-77F6-EFC4-52FE-91B83252F3B9">

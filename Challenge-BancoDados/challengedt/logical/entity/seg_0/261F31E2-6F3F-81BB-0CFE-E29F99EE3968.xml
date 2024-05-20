@@ -15,36 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente" id="A665F995-607E-60A5-BFAB-4C53CC0F66F2">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:12:15 UTC</createdTime>
-<generatorID>2E6FECEA-4116-6264-182A-DAC974D0E67D</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>9CABB255-5AAD-6813-4EE7-B0171D21391A</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_veiculo" id="746F92A2-3072-E163-D8D3-8333D16D5DD4">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-14 15:12:15 UTC</createdTime>
-<generatorID>2E6FECEA-4116-6264-182A-DAC974D0E67D</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>5DA80A3C-2347-4A48-7A55-6EF5A15D9549</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,5,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_problemas1" id="9083097E-EE10-CACE-023E-EE53B72870B4">
 <createdBy>Raphael</createdBy>
 <createdTime>2024-05-14 15:27:30 UTC</createdTime>
@@ -58,119 +28,7 @@
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <dataTypePrecision>5</dataTypePrecision>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="batida" id="77851FEB-C138-EB0C-20F5-DD3BBDA97C63">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:00:54 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="bateria_ruim" id="B6C37DD5-F497-5E7E-EC3A-D0243A325129">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:01:15 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pane_eletrico" id="E20FDD27-FF33-EE11-EEB5-DA2725A3DDBE">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:02:15 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="pneus_furados" id="BBE338DA-4007-95A6-B48F-EB1AEDF66E62">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:02:35 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="super_aquecimento" id="7C904EBC-2028-A7B7-E830-C2DCB9321D91">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:02:52 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="problemas_cambio" id="4A10CF22-83BE-68DF-DBF7-E252B986F663">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:03:45 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="falta_de_revisao" id="C71FCBCA-AD30-4BAD-3A38-A5D308C36E2D">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:04:06 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="problema_novo" id="EE8B2230-0881-085E-C9F5-1C096A46922F">
-<createdBy>Raphael</createdBy>
-<createdTime>2024-05-13 21:04:29 UTC</createdTime>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>110,,</ownDataTypeParameters>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="cd_ordem_servico" id="D2C94C8E-BE2F-5022-3D25-EE3F424995C4">
 <createdBy>Raphael</createdBy>
@@ -186,6 +44,32 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="Attribute_73" id="B442AE16-EA1A-14ED-4C6D-1939FB39F53B">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:19:27 UTC</createdTime>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_veiculo" id="A3426D53-2F43-9A71-C85D-11505CA72DA9">
+<createdBy>Raphael</createdBy>
+<createdTime>2024-05-20 11:19:48 UTC</createdTime>
+<generatorID>0C59AFEF-192F-9EE4-5970-9C2BE01AC20C</generatorID>
+<ownerDesignName>challengedt</ownerDesignName>
+<engineerTo>
+<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
+</engineerTo>
+<referedAttribute>5DA80A3C-2347-4A48-7A55-6EF5A15D9549</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="267D6C32-6076-0653-E029-A250EB5A77DC" name="PROBLEMAS PK">
@@ -196,10 +80,6 @@
 <item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<usedAttributes>
-<attributeRef>A665F995-607E-60A5-BFAB-4C53CC0F66F2</attributeRef>
-<attributeRef>746F92A2-3072-E163-D8D3-8333D16D5DD4</attributeRef>
-</usedAttributes>
 </identifier>
 </identifiers>
 </Entity>

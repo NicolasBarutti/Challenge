@@ -15,21 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente" id="9CABB255-5AAD-6813-4EE7-B0171D21391A">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-25 14:13:22 UTC</createdTime>
-<generatorID>6BAE6699-73F2-7C22-D949-1EB21B71EFC8</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>EF701B33-EF41-0FB5-09C3-A0CB1D589FA3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_veiculo" id="5DA80A3C-2347-4A48-7A55-6EF5A15D9549">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-25 14:14:41 UTC</createdTime>
@@ -104,7 +89,6 @@
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>9CABB255-5AAD-6813-4EE7-B0171D21391A</attributeRef>
 <attributeRef>5DA80A3C-2347-4A48-7A55-6EF5A15D9549</attributeRef>
 </usedAttributes>
 </identifier>

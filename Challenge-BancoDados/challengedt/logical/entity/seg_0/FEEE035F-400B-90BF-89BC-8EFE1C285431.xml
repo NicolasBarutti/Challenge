@@ -15,21 +15,6 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_cliente" id="C80A4DDC-CC5B-70DC-B8F1-53AE4FD8DD00">
-<createdBy>logonrmlocal</createdBy>
-<createdTime>2024-04-25 15:02:34 UTC</createdTime>
-<generatorID>D9253024-9615-A96A-9106-CAB5EDADBB24</generatorID>
-<ownerDesignName>challengedt</ownerDesignName>
-<engineerTo>
-<item key="808251D5-2B84-FCDB-6401-CDB11D52E7A0" value="true"/>
-</engineerTo>
-<referedAttribute>EF701B33-EF41-0FB5-09C3-A0CB1D589FA3</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>110</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="id_endereco" id="82289BDC-7882-5A9C-125A-9FBF38100260">
 <createdBy>logonrmlocal</createdBy>
 <createdTime>2024-04-25 14:59:50 UTC</createdTime>
@@ -108,7 +93,6 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>82289BDC-7882-5A9C-125A-9FBF38100260</attributeRef>
-<attributeRef>C80A4DDC-CC5B-70DC-B8F1-53AE4FD8DD00</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
