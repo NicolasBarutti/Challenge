@@ -1,0 +1,1335 @@
+{
+  "intents": [
+    {
+      "intent": "agendamento_horario",
+      "examples": [
+        {
+          "text": "Estou interessado em programar um conserto para o meu automóvel."
+        },
+        {
+          "text": "Estou procurando agendar um serviço mecânico para o fim de semana."
+        },
+        {
+          "text": "Gostaria de agendar uma inspeção completa do meu carro."
+        },
+        {
+          "text": "Gostaria de marcar um horário para verificar meu carro."
+        },
+        {
+          "text": "Posso agendar uma verificação do meu veículo para amanhã?"
+        },
+        {
+          "text": "Posso marcar uma visita ao mecânico para esta semana?"
+        },
+        {
+          "text": "Preciso agendar uma revisão para o meu veículo."
+        },
+        {
+          "text": "Preciso marcar uma consulta com o mecânico."
+        },
+        {
+          "text": "Preciso marcar um atendimento com o mecânico o quanto antes."
+        },
+        {
+          "text": "Quero programar uma manutenção para o meu carro."
+        },
+        {
+          "text": "Quero reservar um horário na oficina para a próxima segunda-feira."
+        },
+        {
+          "text": "Seria possível reservar um horário para consertar meu automóvel?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Agradeço de coração pela sua ajuda."
+        },
+        {
+          "text": "Agradeço imensamente pelo seu tempo e esforço."
+        },
+        {
+          "text": "Agradeço profundamente pela sua assistência."
+        },
+        {
+          "text": "Fico muito agradecido pela sua consideração."
+        },
+        {
+          "text": "Muito obrigado por estar sempre presente."
+        },
+        {
+          "text": "Muito obrigado por tudo."
+        },
+        {
+          "text": "Não tenho palavras para expressar minha gratidão."
+        },
+        {
+          "text": "nois"
+        },
+        {
+          "text": "obrigado bot!"
+        },
+        {
+          "text": "Obrigado por fazer a diferença."
+        },
+        {
+          "text": "Sou eternamente grato pelo que fez por mim."
+        },
+        {
+          "text": "Sou extremamente grato pelo seu apoio."
+        },
+        {
+          "text": "Sua generosidade é muito apreciada."
+        },
+        {
+          "text": "Sua gentileza significa muito para mim"
+        },
+        {
+          "text": "tmj"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Cadastro",
+      "examples": [
+        {
+          "text": "Abrir conta"
+        },
+        {
+          "text": "Cadastrar usuário"
+        },
+        {
+          "text": "Criar perfil"
+        },
+        {
+          "text": "Criar uma conta"
+        },
+        {
+          "text": "Efetuar registro"
+        },
+        {
+          "text": "Estabelecer perfil"
+        },
+        {
+          "text": "Fazer cadastro"
+        },
+        {
+          "text": "Inscrever-se"
+        },
+        {
+          "text": "Montar cadastro"
+        },
+        {
+          "text": "Realizar registro"
+        },
+        {
+          "text": "Registrar conta"
+        },
+        {
+          "text": "Registrar-se"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Loja_Parceiras",
+      "examples": [
+        {
+          "text": "preciso de pneus novos"
+        },
+        {
+          "text": "preciso de pneus novos, pode me indicar lojas ?"
+        },
+        {
+          "text": "Preciso de uma loja para comprar uma bateria"
+        },
+        {
+          "text": "preciso de uma loja para trocar minha bateria"
+        },
+        {
+          "text": "preciso trocar o óleo qual loja você me recomenda para comprar"
+        },
+        {
+          "text": "quero uma loja para comprar uma nova bateria"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "luzAcessa",
+      "examples": [
+        {
+          "text": "A luz de advertência do painel do carro se acionou."
+        },
+        {
+          "text": "A luz de alerta do painel do carro apareceu."
+        },
+        {
+          "text": "A luz de alerta do painel do carro se acendeu de forma inesperada."
+        },
+        {
+          "text": "A luz de aviso do painel do veículo começou a piscar."
+        },
+        {
+          "text": "A luz do painel do meu automóvel ficou acessa."
+        },
+        {
+          "text": "A luz do painel do meu carro ficou acesa."
+        },
+        {
+          "text": "A luz do painel do meu carro ficou acesa de repente."
+        },
+        {
+          "text": "A luz do painel do meu veículo se ligou"
+        },
+        {
+          "text": "Meu painel acendeu uma luz amarela"
+        },
+        {
+          "text": "Meu painel acendeu uma luz azul"
+        },
+        {
+          "text": "Meu painel acendeu uma luz verde"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Oficinas_proximas",
+      "examples": [
+        {
+          "text": "Existem oficinas abertas neste momento nas proximidades?"
+        },
+        {
+          "text": "Existe uma oficina de confiança perto daqui?"
+        },
+        {
+          "text": "Há alguma oficina especializada em determinado tipo de reparo nas redondezas?"
+        },
+        {
+          "text": "Onde posso encontrar uma boa oficina mecânica por aqui?"
+        },
+        {
+          "text": "Onde posso encontrar uma oficina com preços acessíveis?"
+        },
+        {
+          "text": "Quais oficinas estão mais próximas daqui?"
+        },
+        {
+          "text": "Quais oficinas oferecem serviço de guincho ou reboque, se necessário?"
+        },
+        {
+          "text": "Qual é a oficina mais bem avaliada nesta região?"
+        },
+        {
+          "text": "Você conhece alguma oficina confiável nas proximidades?"
+        },
+        {
+          "text": "Você pode me indicar uma oficina com bom histórico de atendimento ao cliente?"
+        },
+        {
+          "text": "Você sabe onde posso encontrar uma oficina que trabalhe com o tipo específico de veículo que tenho?"
+        },
+        {
+          "text": "Você tem alguma recomendação de oficina mecânica por perto?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "problemas_veiculo",
+      "examples": [
+        {
+          "text": "\"Estou com dificuldades mecânicas no meu automóvel.\""
+        },
+        {
+          "text": "\"Estou com um contratempo mecânico no meu automóvel.\""
+        },
+        {
+          "text": "\"Estou com um problema no meu carro\""
+        },
+        {
+          "text": "Estou enfrentando uma questão com meu veículo."
+        },
+        {
+          "text": "\"Estou tendo problemas de funcionamento com meu veículo.\""
+        },
+        {
+          "text": "\"Estou tendo uma falha com meu veículo.\""
+        },
+        {
+          "text": "\"Meu automóvel está parado.\""
+        },
+        {
+          "text": "\"Meu carro está apresentando um contratempo.\""
+        },
+        {
+          "text": "\"Meu carro está inoperante.\""
+        },
+        {
+          "text": "Meu carro não funciona"
+        },
+        {
+          "text": "\"Meu carro não liga.\""
+        },
+        {
+          "text": "\"Meu veículo não está funcionando corretamente.\""
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cep",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cep",
+          "patterns": [
+            "\\d{5}-\\d{3}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "email",
+          "patterns": [
+            "^\\S+@\\S+\\.\\S+$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estados",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Belo Horizonte",
+          "synonyms": [
+            "bh",
+            "minas gerais "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "rio",
+            "rio de janeiro",
+            "rj"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "São paulo",
+          "synonyms": [
+            "sao paulo",
+            "sp"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "LojaParceira",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "AutoPartes Premium",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "AutoPro Peças",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "PeçaFácil Automotiva",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "LuzPainel",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Luz amarela",
+          "synonyms": [
+            "Amarelo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luz Azul",
+          "synonyms": [
+            "Azul",
+            "Blue"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luz Verde",
+          "synonyms": [
+            "green",
+            "Verde "
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Luz Vermelha",
+          "synonyms": [
+            "red",
+            "Vermelha "
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Oficinas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Arte em Manutenção",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Auto Fix",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Centro Automotivo Ágil",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Mecânica Total",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Rodando Novamente",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "problemas",
+      "values": [],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim_nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "n",
+            "não",
+            "Nem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "concerteza",
+            "logico",
+            "ok",
+            "s",
+            "tá",
+            "tem",
+            "tudo bem"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "celular",
+          "patterns": [
+            "\\d{5]-\\d{4}"
+          ]
+        },
+        {
+          "type": "patterns",
+          "value": "fixo",
+          "patterns": [
+            "\\d{4}-\\d{4}"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_2_1716233542480",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu e-mail:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1716296346822",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1716296346836",
+      "previous_sibling": "handler_6_1716296346836"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1716297452744",
+      "context": {
+        "cep": "@cep"
+      },
+      "conditions": "@cep",
+      "event_name": "input",
+      "dialog_node": "handler_2_1716297452747"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1716410754218",
+      "event_name": "input",
+      "dialog_node": "handler_2_1716410754243"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1716296483564",
+      "context": {
+        "telefone": "@telefone"
+      },
+      "conditions": "@telefone",
+      "event_name": "input",
+      "dialog_node": "handler_3_1716296483564"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1716410754218",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1716410754244",
+      "previous_sibling": "handler_2_1716410754243"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1716296346822",
+      "context": {
+        "email": "@email"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_6_1716296346836"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu cep:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1716297452744",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1716297452747",
+      "previous_sibling": "handler_2_1716297452747"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu telefone:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1716296483564",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1716296483564",
+      "previous_sibling": "handler_3_1716296483564"
+    },
+    {
+      "type": "standard",
+      "title": "Problemas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Poderia me informar mais sobre o problema do seu veiculo? apareceu alguma luz no painel ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#problemas_veiculo",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1716233512006",
+      "previous_sibling": "node_9_1716228170498"
+    },
+    {
+      "type": "standard",
+      "title": "Sim para luz vermelha ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz é de emergência, verifique se é luz de airbag, bateria, temperatura do liquido e arrefecimento, pressão do óleo no motor, e fluido de freio baixo"
+              },
+              {
+                "text": "Deseja Agendar uma manutenção?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1716316663673",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_10_1716316869723"
+    },
+    {
+      "type": "standard",
+      "title": "não para azul",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz é verde ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1716317889118",
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_10_1716318711488",
+      "previous_sibling": "node_5_1716318592478"
+    },
+    {
+      "type": "standard",
+      "parent": "node_10_1716316869723",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1716296281666"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_10_1716386227900"
+    },
+    {
+      "type": "standard",
+      "title": "AutoPartes Premium",
+      "parent": "node_4_1716410161595",
+      "conditions": "@LojaParceira:(AutoPartes Premium)",
+      "dialog_node": "node_10_1716410863405"
+    },
+    {
+      "type": "standard",
+      "title": "Oficinas proximas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui está a lista de oficias proximas a você: Rodando Novamente, Arte em Manutenção, Mecânica Total"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "Oficina_escolhida": "@Oficinas"
+      },
+      "conditions": "#Oficinas_proximas",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_1_1716296281666",
+      "previous_sibling": "node_4_1716233472934"
+    },
+    {
+      "type": "standard",
+      "parent": "node_6_1716317761630",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1716296281666"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_1_1716403696414"
+    },
+    {
+      "type": "standard",
+      "title": "Luz Acessa Azul ",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_5_1716318592478"
+      },
+      "conditions": "#luzAcessa && @LuzPainel:(Luz Azul)",
+      "dialog_node": "node_1_1716404186638",
+      "previous_sibling": "node_3_1716404569281"
+    },
+    {
+      "type": "standard",
+      "parent": "node_2_1716405053393",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_1_1716407399569"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Muito obrigado pela preferência, volte sempre  "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "dialog_node": "node_2_1716233542480",
+      "previous_sibling": "node_4_1716410161595"
+    },
+    {
+      "type": "standard",
+      "title": "Luz Acessa Amarela",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_6_1716317761630"
+      },
+      "conditions": "#luzAcessa && @LuzPainel:(Luz amarela)",
+      "dialog_node": "node_2_1716403521545",
+      "previous_sibling": "node_1_1716404186638"
+    },
+    {
+      "type": "standard",
+      "parent": "node_5_1716318592478",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1716296281666"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_2_1716404321935"
+    },
+    {
+      "type": "standard",
+      "title": "Sim para não deu partida ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Neste casso pode ser uma falha noa batéria faça o teste ligando dois esquipamentos eletronico do carro ao mesmo tempo? "
+              },
+              {
+                "text": "Responda com sim caso se caso foi a betéria. Vou te indicar uma loja onde você possa fazer a compra. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1716316877556",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_2_1716405053393"
+    },
+    {
+      "type": "standard",
+      "title": "Arte em Manutenção",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O endereço é Avenida da Alegria, 456 - Vila da Felicidade, Estado dos Sorrisos."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716296281666",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1716233472934"
+      },
+      "conditions": "@Oficinas:(Arte em Manutenção)",
+      "dialog_node": "node_3_1716385560174",
+      "previous_sibling": "node_5_1716385065800"
+    },
+    {
+      "type": "standard",
+      "title": "Luz Acessa verde",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_7_1716318760607"
+      },
+      "conditions": "#luzAcessa && @LuzPainel:(Luz Verde)",
+      "dialog_node": "node_3_1716404569281",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Não para Problema bateria ",
+      "parent": "node_2_1716405053393",
+      "dialog_node": "node_3_1716410109693",
+      "previous_sibling": "node_1_1716407399569"
+    },
+    {
+      "type": "standard",
+      "title": "PeçaFácil Automotiva",
+      "parent": "node_4_1716410161595",
+      "conditions": "@LojaParceira:(PeçaFácil Automotiva)",
+      "dialog_node": "node_3_1716410867401",
+      "previous_sibling": "node_4_1716410865551"
+    },
+    {
+      "type": "standard",
+      "title": "Agendar Horario",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Qual seria o melhor horário para agendar a manutenção?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#agendamento_horario",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1716233472934",
+      "previous_sibling": "node_10_1716233512006"
+    },
+    {
+      "type": "standard",
+      "title": "Horario marcado",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Seu horario com a $Oficina_escolhida foi marcado"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1716233472934",
+      "conditions": "@sys-time || @sys-date",
+      "dialog_node": "node_4_1716386788661"
+    },
+    {
+      "type": "standard",
+      "title": "Loja Parceira ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui está a lista de oficias proximas a você:AutoPartes Premium, AutoPro Peças, PeçaFácil Automotiva"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Loja_Parceiras",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1716410161595",
+      "previous_sibling": "node_1_1716296281666"
+    },
+    {
+      "type": "standard",
+      "title": "AutoPro Peças",
+      "parent": "node_4_1716410161595",
+      "conditions": "@LojaParceira:(AutoPro Peças)",
+      "dialog_node": "node_4_1716410865551",
+      "previous_sibling": "node_10_1716410863405"
+    },
+    {
+      "type": "standard",
+      "title": "não para luz amarela ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "essa luz é azul ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716317668828",
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_5_1716317889118",
+      "previous_sibling": "node_6_1716317761630"
+    },
+    {
+      "type": "standard",
+      "title": "sim para azul",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz indica ao motorista que o motor está frio e ainda não atingiu a temperatura ideal de funcionamento.  O motoro será conservado se você só pisar fundo no acelerador quando essa luz se apagar. "
+              },
+              {
+                "text": "Deseja marcar uma manutenção?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_5_1716317889118",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_5_1716318592478"
+    },
+    {
+      "type": "standard",
+      "title": "Luz Acessa Vemelha ",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_10_1716316869723"
+      },
+      "conditions": "#luzAcessa && @LuzPainel:(Luz Vermelha)",
+      "dialog_node": "node_5_1716384282214",
+      "previous_sibling": "node_2_1716403521545"
+    },
+    {
+      "type": "standard",
+      "title": "Rodando Novamente",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O endereço é Rua das Flores, 123 - Cidade dos Sonhos, Estado da Imaginação."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716296281666",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1716233472934"
+      },
+      "conditions": "@Oficinas:(Rodando Novamente)",
+      "dialog_node": "node_5_1716385065800"
+    },
+    {
+      "type": "standard",
+      "title": "Mecânica Total",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Travessa do Arco-íris,789-Lugar Fantasia , Estado dos Sonhos "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_1_1716296281666",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1716233472934"
+      },
+      "conditions": "@Oficinas:(Mecânica Total)",
+      "dialog_node": "node_5_1716405325879",
+      "previous_sibling": "node_3_1716385560174"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz tem a cor vermelha ? (responda com sim ou não)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1716233512006",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_6_1716316663673"
+    },
+    {
+      "type": "standard",
+      "title": "Não",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Esse problema foi quando você tentou ligar o carro ? ele não deu partida ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1716233512006",
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_6_1716316877556",
+      "previous_sibling": "node_6_1716316663673"
+    },
+    {
+      "type": "standard",
+      "title": "Não para luz vermelha ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz é amarela ? (responda com sim e não)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1716316663673",
+      "conditions": "@sim_nao:não",
+      "dialog_node": "node_6_1716317668828",
+      "previous_sibling": "node_10_1716316869723"
+    },
+    {
+      "type": "standard",
+      "title": "Sim luz amarela",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz é de advertência, com isso pode ser problemas na injeção eletronica e Pré aquecimento das velas "
+              },
+              {
+                "text": "Deseja Agendar uma manutenção?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_6_1716317668828",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_6_1716317761630"
+    },
+    {
+      "type": "standard",
+      "title": "sim para verde ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Essa luz indica apenas que algum sistema do veículo está funcionando ou não. Um exemplo da utilização da luz verde está na seta, que exibe no painel uma sinalização verde quando está ligada."
+              },
+              {
+                "text": "Deseja fazer uma manutenção?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "parent": "node_10_1716318711488",
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_7_1716318760607"
+    },
+    {
+      "type": "standard",
+      "parent": "node_7_1716318760607",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1716296281666"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_8_1716404495301"
+    },
+    {
+      "type": "frame",
+      "title": "Cadastro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro realizado com sucesso! o que você precisa ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Cadastro",
+      "dialog_node": "node_9_1716228170498",
+      "previous_sibling": "node_5_1716384282214"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1716228170498",
+      "disabled": true,
+      "dialog_node": "response_3_1716296175069",
+      "previous_sibling": "slot_5_1716297452744"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_4_1716410161595",
+      "disabled": true,
+      "conditions": "anything_else",
+      "dialog_node": "response_6_1716410839067",
+      "previous_sibling": "response_8_1716410838523"
+    },
+    {
+      "type": "response_condition",
+      "output": {},
+      "parent": "node_4_1716410161595",
+      "disabled": true,
+      "conditions": "$webhook_result_1",
+      "dialog_node": "response_8_1716410838523",
+      "previous_sibling": "response_9_1716410760214"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aqui 'está a lista de oficias proximas a você:AutoPartes Premium, AutoPro Peças, PeçaFácil Automotiva"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1716410161595",
+      "disabled": true,
+      "conditions": "#LojaParceira",
+      "dialog_node": "response_9_1716410760214",
+      "previous_sibling": "node_3_1716410867401"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1716228170498",
+      "variable": "$email",
+      "dialog_node": "slot_5_1716296346822"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1716228170498",
+      "variable": "$telefone",
+      "dialog_node": "slot_5_1716296483564",
+      "previous_sibling": "slot_5_1716296346822"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1716228170498",
+      "variable": "$cep",
+      "dialog_node": "slot_5_1716297452744",
+      "previous_sibling": "slot_5_1716296483564"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1716410161595",
+      "dialog_node": "slot_6_1716410754218",
+      "previous_sibling": "response_6_1716410839067"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "BotChallenge-dialog"
+}
