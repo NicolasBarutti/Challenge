@@ -7,9 +7,9 @@ public class OrdemServico {
     private Peca peca;
     private Oficina oficina;
     private Date dataManutencao;
-    private Mecanicos mecanicos;
+    private Mecanico mecanicos;
 
-    public OrdemServico(boolean statusTermino, Peca peca, Oficina oficina, Date dataManutencao, Mecanicos mecanicos) {
+    public OrdemServico(boolean statusTermino, Peca peca, Oficina oficina, Date dataManutencao, Mecanico mecanicos) {
         this.statusTermino = statusTermino;
         this.peca = peca;
         this.oficina = oficina;
@@ -36,7 +36,7 @@ public class OrdemServico {
         return dataManutencao;
     }
 
-    public Mecanicos getMecanicos() {
+    public Mecanico getMecanicos() {
         return mecanicos;
     }
 }

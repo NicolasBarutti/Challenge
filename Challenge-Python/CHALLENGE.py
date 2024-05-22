@@ -1,6 +1,9 @@
 import re
 from datetime import datetime
 
+def validar_cpf(cpf):
+    
+
 def criar_cadastro(cad):
     print("\nCriando Cadastro\n")
     nome = input("Digite seu nome: ").strip()

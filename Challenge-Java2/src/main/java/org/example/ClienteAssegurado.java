@@ -9,11 +9,9 @@ public class ClienteAssegurado extends Cliente{
         super(razaoSocial, sexoBiologico, cpf, dataDeNascimento, descricaoProblema, carro, emailPlataforma, senhaPlataforma);
     }
 
-
     public Seguro getSeguro() {
         return seguro;
     }
-
 
     @Override
     public void fazerCadastro() {

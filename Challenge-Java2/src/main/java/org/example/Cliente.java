@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Date;
 
-public abstract class Cliente extends Pessoa implements CadastroPlataforma{
+public class Cliente extends Pessoa implements CadastroPlataforma{
 
     private String descricaoProblema;
     private Carro carro;
@@ -15,5 +15,36 @@ public abstract class Cliente extends Pessoa implements CadastroPlataforma{
         this.carro = carro;
         this.emailPlataforma = emailPlataforma;
         this.senhaPlataforma = senhaPlataforma;
+    }
+
+    public String getDescricaoProblema() {
+        return descricaoProblema;
+    }
+
+    public Carro getCarro() {
+        return carro;
+    }
+
+    public String getEmailPlataforma() {
+        return emailPlataforma;
+    }
+
+    public String getSenhaPlataforma() {
+        return senhaPlataforma;
+    }
+
+    @Override
+    public void fazerCadastro() {
+
+    }
+
+    @Override
+    public void cancelarCadastro() {
+
+    }
+
+    @Override
+    public void fazerLogin() {
+
     }
 }

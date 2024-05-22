@@ -4,10 +4,10 @@ public class Oficina {
     private String nomeOficina;
     private String endereco;
     private String cnpj;
-    private Mecanicos mecanicos;
+    private Mecanico mecanicos;
     private boolean homologadaPorto;
 
-    public Oficina(String endereco, String cnpj, Mecanicos mecanicos) {
+    public Oficina(String endereco, String cnpj, Mecanico mecanicos) {
         this.endereco = endereco;
         this.cnpj = cnpj;
         this.mecanicos = mecanicos;
@@ -25,7 +25,7 @@ public class Oficina {
         return cnpj;
     }
 
-    public Mecanicos getMecanicos() {
+    public Mecanico getMecanicos() {
         return mecanicos;
     }
 
@@ -37,7 +37,7 @@ public class Oficina {
         this.homologadaPorto = homologadaPorto;
     }
 
-    public void setMecanicos(Mecanicos mecanicos) {
+    public void setMecanicos(Mecanico mecanicos) {
         this.mecanicos = mecanicos;
     }
 }
