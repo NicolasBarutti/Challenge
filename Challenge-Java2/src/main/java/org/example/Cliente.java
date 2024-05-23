@@ -44,7 +44,13 @@ public class Cliente extends Pessoa implements CadastroPlataforma{
     }
 
     @Override
-    public void fazerLogin() {
-
+    public boolean fazerLogin(String senha, String email) {
+        if (senha.equals(this.senhaPlataforma) && email.equals(this.emailPlataforma)) {
+            System.out.println("Login realizado com sucesso!");
+            return true;
+        } else {
+            System.out.println("Email ou senha incorretos. Tente novamente.");
+            return false;
+        }
     }
 }

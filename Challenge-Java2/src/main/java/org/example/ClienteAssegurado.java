@@ -24,7 +24,13 @@ public class ClienteAssegurado extends Cliente{
     }
 
     @Override
-    public void fazerLogin() {
-
+    public boolean fazerLogin(String senha, String email) {
+        if (senha.equals(getSenhaPlataforma()) && email.equals(getEmailPlataforma())){
+            System.out.println("Login realizado com sucesso!");
+            return true;
+        } else {
+            System.out.println("Email ou senha incorretos. Tente novamente.");
+            return false;
+        }
     }
 }
