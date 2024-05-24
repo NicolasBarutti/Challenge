@@ -507,9 +507,28 @@
           {
             "values": [
               {
-                "text": "Olá. Como posso te ajudar?"
+                "text": "Olá. Sou o Assistente da Auto Tech Repair Solution, em que posso te ajudar?"
               }
             ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Gostaria de se cadastrar no nosso site?",
+            "options": [
+              {
+                "label": "Clique aqui",
+                "value": {
+                  "input": {
+                    "text": "Cadastro"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          },
+          {
+            "values": [],
             "response_type": "text",
             "selection_policy": "sequential"
           }
@@ -618,7 +637,7 @@
           {
             "values": [
               {
-                "text": "Digite seu cep:"
+                "text": "Digite seu cep(exemplo: 12345-123):"
               }
             ],
             "response_type": "text"
@@ -637,7 +656,7 @@
           {
             "values": [
               {
-                "text": "Digite seu telefone:"
+                "text": "Digite seu telefone(exemplo: 1234-1234):"
               }
             ],
             "response_type": "text"
