@@ -1,8 +1,6 @@
 import re
 from datetime import datetime
 
-def validar_cpf(cpf):
-    
 
 def criar_cadastro(cad):
     print("\nCriando Cadastro\n")
@@ -10,26 +8,27 @@ def criar_cadastro(cad):
     while not re.match("^[A-Za-z ]+$", nome):
         print("Nome inválido. Por favor, digite um nome válido.")
         nome = input("Digite seu nome: ").strip()
-    
+
     cpf = input("Digite seu CPF (apenas números): ").strip()
     while not re.match("^\d{11}$", cpf):
         print("CPF inválido. O CPF deve conter 11 dígitos.")
         cpf = input("Digite seu CPF (apenas números): ").strip()
-    
+
     telefone = input("Digite seu telefone (apenas números com DDD): ").strip()
     while not re.match("^\d{10,11}$", telefone):
         print("Telefone inválido. O telefone deve conter 10 ou 11 dígitos.")
         telefone = input("Digite seu telefone (apenas números com DDD): ").strip()
-    
+
     email = input("Digite seu e-mail: ").strip()
     while not re.match(r"^[\w\.-]+@[\w\.-]+\.\w+$", email):
         print("E-mail inválido. Por favor, digite um e-mail válido.")
         email = input("Digite seu e-mail: ").strip()
-    
+
     senha = input("Crie uma senha: ").strip()
     cad.append([nome, cpf, telefone, email, senha])
     print("\nCadastro criado com sucesso!\n")
     return email
+
 
 def entrar_cadastro(cad, email=None):
     while True:
@@ -47,13 +46,16 @@ def entrar_cadastro(cad, email=None):
             email = criar_cadastro(cad)
     return None
 
+
 def validar_placa(placa):
     pattern = "^[A-Z]{3}[0-9][0-9A-Z][0-9]{2}$"
     return re.match(pattern, placa) is not None
 
+
 def validar_ano(ano):
     ano_atual = datetime.now().year
     return ano.isdigit() and 1900 <= int(ano) <= ano_atual
+
 
 def veiculo(vei):
     print("\nCriando Cadastro de Veículo\n")
@@ -69,24 +71,34 @@ def veiculo(vei):
         placa = input("Digite a placa do seu veículo: ").upper().strip()
     combustivel = input("Digite o tipo de combustível (Gasolina, Álcool, Diesel, etc.): ").strip()
     cor = input("Digite a cor do veículo: ").strip()
-    
+
     vei.append([modelo, marca, ano, placa, combustivel, cor])
     print("\nVeículo cadastrado com sucesso!\n")
 
+
 def peca():
     pecas_disponiveis = {
-        1: {"nome": "Pneu", "valor": 300, "local": "Loja AutoTech Repair Solucion, Rua Manoel, 123", "pagamento": "Pagamento no Local em até 12 vezes"},
-        2: {"nome": "Bateria", "valor": 450, "local": "Loja AutoTech Repair Solucion, Avenida Emanuel , 456", "pagamento": "Pagamento no Local em até 12 vezes"},
-        3: {"nome": "Parabrisa", "valor": 800, "local": "Loja AutoTech Repair Solucion, Rua Diogo Gomes, 789", "pagamento": "Pagamento no Local em até 12 vezes"},
-        4: {"nome": "Retrovisor", "valor": 200, "local": "Loja AutoTech Repair Solucion, Avenida Eliseu de Almeida, 101", "pagamento": "Pagamento no Local em até 12 vezes"},
-        5: {"nome": "Farol", "valor": 600, "local": "Loja AutoTech Repair Solucion, Rua Oscar freire, 112", "pagamento": "Pagamento no Local em até 12 vezes"},
-        6: {"nome": "Óleo do motor", "valor": 150, "local": "Loja AutoTech Repair Solucion, Avenida Inter Continental, 131", "pagamento": "Pagamento no Local em até 12 vezes"}
+        1: {"nome": "Pneu", "valor": 300, "local": "Loja AutoTech Repair Solucion, Rua Manoel, 123",
+            "pagamento": "Pagamento no Local em até 12 vezes"},
+        2: {"nome": "Bateria", "valor": 450, "local": "Loja AutoTech Repair Solucion, Avenida Emanuel , 456",
+            "pagamento": "Pagamento no Local em até 12 vezes"},
+        3: {"nome": "Parabrisa", "valor": 800, "local": "Loja AutoTech Repair Solucion, Rua Diogo Gomes, 789",
+            "pagamento": "Pagamento no Local em até 12 vezes"},
+        4: {"nome": "Retrovisor", "valor": 200,
+            "local": "Loja AutoTech Repair Solucion, Avenida Eliseu de Almeida, 101",
+            "pagamento": "Pagamento no Local em até 12 vezes"},
+        5: {"nome": "Farol", "valor": 600, "local": "Loja AutoTech Repair Solucion, Rua Oscar freire, 112",
+            "pagamento": "Pagamento no Local em até 12 vezes"},
+        6: {"nome": "Óleo do motor", "valor": 150,
+            "local": "Loja AutoTech Repair Solucion, Avenida Inter Continental, 131",
+            "pagamento": "Pagamento no Local em até 12 vezes"}
     }
-    
+
     print("\nPeças disponíveis:")
     for numero, detalhes in pecas_disponiveis.items():
-        print(f"{numero}. {detalhes['nome']}: Valor: R${detalhes['valor']}, Local para buscar: {detalhes['local']}, Forma de pagamento: {detalhes['pagamento']}")
-    
+        print(
+            f"{numero}. {detalhes['nome']}: Valor: R${detalhes['valor']}, Local para buscar: {detalhes['local']}, Forma de pagamento: {detalhes['pagamento']}")
+
     escolha = int(input("\nDigite o número da peça que deseja ver os detalhes: ").strip())
 
     detalhes = pecas_disponiveis.get(escolha)
@@ -99,13 +111,16 @@ def peca():
     else:
         print("\nPeça não encontrada. Tente novamente.\n")
 
+
 def exibir_menu(nome_usuario):
     print(f"\n-MENU- (Logado como: {nome_usuario if nome_usuario else 'Deslogado'})")
     print("1. Criar Cadastro")
     print("2. Cadastro Veículo")
     print("3. Entrar")
     print("4. Ver Valor e Local de Peças")
-    print("5. Sair\n")
+    print("5. Acessar o Bot da AutoTech Rapair Solution")
+    print("6. Sair\n")
+
 
 cad = []
 vei = []
@@ -129,8 +144,11 @@ while True:
     elif escolha == 4:
         peca()
     elif escolha == 5:
+        print("\nEntre nesse link para conversar com nosso Bot Assistente:")
+        print('https://auto-rapair-solution.netlify.app/')
+        print("\nRedirecionando...")
+    elif escolha == 6:
         print("Saindo...")
         break
     else:
         print("Opção inválida. Tente novamente.")
-
