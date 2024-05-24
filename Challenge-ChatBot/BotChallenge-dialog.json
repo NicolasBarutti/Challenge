@@ -876,7 +876,7 @@
           {
             "values": [
               {
-                "text": "Neste casso pode ser uma falha noa batéria faça o teste ligando dois esquipamentos eletronico do carro ao mesmo tempo? "
+                "text": "Neste casso pode ser uma falha na batéria faça o teste ligando dois esquipamentos eletronico do carro ao mesmo tempo? "
               },
               {
                 "text": "Responda com sim caso se caso foi a betéria. Vou te indicar uma loja onde você possa fazer a compra. "
@@ -949,7 +949,7 @@
         ]
       },
       "parent": "node_2_1716405053393",
-      "conditions": "@sim_nao:sim",
+      "conditions": "@sim_nao:não",
       "dialog_node": "node_3_1716410109693",
       "previous_sibling": "node_1_1716407399569"
     },
