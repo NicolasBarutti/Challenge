@@ -676,7 +676,7 @@
           {
             "values": [
               {
-                "text": "Poderia me informar mais sobre o problema do seu veiculo? apareceu alguma luz no painel ?"
+                "text": "Apareceu alguma luz no painel ?"
               }
             ],
             "response_type": "text",
@@ -747,6 +747,22 @@
     {
       "type": "standard",
       "title": "AutoPartes Premium",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Travessa das Acácias, 789\nBairro Novo Horizonte\nSão Paulo, SP\nCEP: 33456-789"
+              },
+              {
+                "text": "Esse loja vai ter tudo o que precisa, não esqueça de falar que veio por nossa causa que você ganha 10% de desconto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
       "parent": "node_4_1716410161595",
       "conditions": "@LojaParceira:(AutoPartes Premium)",
       "dialog_node": "node_10_1716410863405"
@@ -801,6 +817,11 @@
     {
       "type": "standard",
       "parent": "node_2_1716405053393",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_4_1716410161595"
+      },
       "conditions": "@sim_nao:sim",
       "dialog_node": "node_1_1716407399569"
     },
@@ -911,13 +932,46 @@
     {
       "type": "standard",
       "title": "Não para Problema bateria ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Precisamos avaliar seu carro pois, neste caso deve ser o motor de arranque."
+              },
+              {
+                "text": "Digite sim para ver oficinas próximas a você."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
       "parent": "node_2_1716405053393",
+      "conditions": "@sim_nao:sim",
       "dialog_node": "node_3_1716410109693",
       "previous_sibling": "node_1_1716407399569"
     },
     {
       "type": "standard",
       "title": "PeçaFácil Automotiva",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Rua das Flores, 123\nBairro Jardim Alegre\nSão Paulo, SP\nCEP: 01234-567"
+              },
+              {
+                "text": "Esse loja vai ter tudo o que precisa, não esqueça de falar que veio por nossa causa que você ganha 10% de desconto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
       "parent": "node_4_1716410161595",
       "conditions": "@LojaParceira:(PeçaFácil Automotiva)",
       "dialog_node": "node_3_1716410867401",
@@ -993,6 +1047,22 @@
     {
       "type": "standard",
       "title": "AutoPro Peças",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Avenida dos Pioneiros, 456\nCentro\nSão Paulo, SP\nCEP: 22345-678"
+              },
+              {
+                "text": "Esse loja vai ter tudo o que precisa, não esqueça de falar que veio por nossa causa que você ganha 10% de desconto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
       "parent": "node_4_1716410161595",
       "conditions": "@LojaParceira:(AutoPro Peças)",
       "dialog_node": "node_4_1716410865551",
@@ -1189,6 +1259,18 @@
       "parent": "node_6_1716317668828",
       "conditions": "@sim_nao:sim",
       "dialog_node": "node_6_1716317761630"
+    },
+    {
+      "type": "standard",
+      "title": "sim para oficina ",
+      "parent": "node_3_1716410109693",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "body",
+        "dialog_node": "node_1_1716296281666"
+      },
+      "conditions": "@sim_nao:sim",
+      "dialog_node": "node_6_1716563068554"
     },
     {
       "type": "standard",
