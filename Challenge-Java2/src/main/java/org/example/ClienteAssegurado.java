@@ -1,8 +1,10 @@
 package org.example;
 
 import java.util.Date;
+import java.util.List;
 
 public class ClienteAssegurado extends Cliente{
+
     private Seguro seguro;
 
     public ClienteAssegurado(String razaoSocial, String sexoBiologico, String cpf, Date dataDeNascimento, String descricaoProblema, Carro carro, String emailPlataforma, String senhaPlataforma) {
@@ -13,24 +15,41 @@ public class ClienteAssegurado extends Cliente{
         return seguro;
     }
 
-    @Override
-    public void fazerCadastro() {
-        //precisa do idSeguro
+    private boolean isEmailValido(String email) {
+        return email != null && email.contains("@");
+    }
+
+    private boolean isSenhaValida(String senha) {
+        return senha != null && senha.length() >= 6;
     }
 
     @Override
-    public void cancelarCadastro() {
+    public boolean fazerCadastro() {
+        if (!isEmailValido(getEmailPlataforma())) {
+            return false;
+        }
+        else if (!isSenhaValida(getSenhaPlataforma())) {
+            return false;
+        }else {
+            return true;
+        }
+    }
 
+    @Override
+    public boolean cancelarCadastro(String email, String senha, boolean verificarCerteza) {
+        if (getEmailPlataforma().equals(email) && (getSenhaPlataforma().equals(senha)) && verificarCerteza){
+            return true;
+        }
+        return false;
     }
 
     @Override
     public boolean fazerLogin(String senha, String email) {
-        if (senha.equals(getSenhaPlataforma()) && email.equals(getEmailPlataforma())){
-            System.out.println("Login realizado com sucesso!");
+        if (getEmailPlataforma().equals(email) && (getSenhaPlataforma().equals(senha))){
             return true;
-        } else {
-            System.out.println("Email ou senha incorretos. Tente novamente.");
-            return false;
         }
+        return false;
+
+
     }
 }

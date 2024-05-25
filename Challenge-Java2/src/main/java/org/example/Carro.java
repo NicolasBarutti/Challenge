@@ -6,17 +6,15 @@ public class Carro {
     private  String modelo;
     private Date anoDoVeiculo;
     private String marca;
-    private Long placa;
+    private Integer placa;
     private Cor cor;
-    private Cliente cliente;
 
-    public Carro(String modelo, Date anoDoVeiculo, String marca, Long placa, Cor cor, Cliente cliente) {
+    public Carro(String modelo, Date anoDoVeiculo, String marca, Integer placa, Cor cor) {
         this.modelo = modelo;
         this.anoDoVeiculo = anoDoVeiculo;
         this.marca = marca;
         this.placa = placa;
         this.cor = cor;
-        this.cliente = cliente;
     }
 
     public String getModelo() {
@@ -31,15 +29,11 @@ public class Carro {
         return marca;
     }
 
-    public Long getPlaca() {
+    public Integer getPlaca() {
         return placa;
     }
 
     public Cor getCor() {
         return cor;
-    }
-
-    public Cliente getCliente() {
-        return cliente;
     }
 }

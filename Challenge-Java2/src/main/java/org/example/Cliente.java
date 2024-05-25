@@ -17,6 +17,7 @@ public class Cliente extends Pessoa implements CadastroPlataforma{
         this.senhaPlataforma = senhaPlataforma;
     }
 
+
     public String getDescricaoProblema() {
         return descricaoProblema;
     }
@@ -33,24 +34,42 @@ public class Cliente extends Pessoa implements CadastroPlataforma{
         return senhaPlataforma;
     }
 
+
+    private boolean isEmailValido(String email) {
+        return email != null && email.contains("@");
+    }
+
+    private boolean isSenhaValida(String senha) {
+        return senha != null && senha.length() >= 6;
+    }
+
     @Override
-    public void fazerCadastro() {
+    public boolean fazerCadastro() {
+        if (!isEmailValido(emailPlataforma)) {
+            return false;
+        }
+        else if (!isSenhaValida(senhaPlataforma)) {
+            return false;
+        }
+        return true;
 
     }
 
     @Override
-    public void cancelarCadastro() {
-
+    public boolean cancelarCadastro(String email, String senha, boolean verificarCerteza) {
+            if (getEmailPlataforma().equals(email) && (getSenhaPlataforma().equals(senha))){
+                return true;
+            }
+            return false;
     }
 
     @Override
     public boolean fazerLogin(String senha, String email) {
-        if (senha.equals(this.senhaPlataforma) && email.equals(this.emailPlataforma)) {
-            System.out.println("Login realizado com sucesso!");
+        if (getEmailPlataforma().equals(email) && (getSenhaPlataforma().equals(senha))){
             return true;
-        } else {
-            System.out.println("Email ou senha incorretos. Tente novamente.");
-            return false;
         }
+        return false;
+
+
     }
 }
